@@ -1,0 +1,16 @@
+# 虚拟环境 / 缓存
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# 运行时生成的数据库
+chroma_db/
+chroma_db_lc/
+record_manager.db
+
+# 密钥：绝不提交
+.env
+.env.*
+*.key
+*.pem
